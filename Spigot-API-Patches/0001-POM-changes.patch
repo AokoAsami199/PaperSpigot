@@ -1,11 +1,11 @@
-From dfb45aaa99af7c1c146d40b3e5ee4c1040b5e7b1 Mon Sep 17 00:00:00 2001
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Zach Brown <Zbob750@live.com>
 Date: Tue, 6 Jan 2015 22:12:31 -0600
 Subject: [PATCH] POM changes
 
 
 diff --git a/pom.xml b/pom.xml
-index cb142f21..d63151f1 100644
+index cb142f2162ce053578dfb18db0b50fb4bf6c4dca..d63151f1c7593c027fc65b65d65030a65f0b35d0 100644
 --- a/pom.xml
 +++ b/pom.xml
 @@ -4,35 +4,37 @@
@@ -86,6 +86,3 @@ index cb142f21..d63151f1 100644
              <plugin>
                  <groupId>org.apache.maven.plugins</groupId>
                  <artifactId>maven-shade-plugin</artifactId>
--- 
-2.34.0
-

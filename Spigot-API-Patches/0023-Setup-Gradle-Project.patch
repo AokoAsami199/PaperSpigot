@@ -1,4 +1,4 @@
-From 8dfed2604681197f57ebff257a14da7d352e3327 Mon Sep 17 00:00:00 2001
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Peridot <peridot491@protonmail.com>
 Date: Sun, 4 Jun 2023 20:42:27 +0200
 Subject: [PATCH] Setup Gradle Project
@@ -6,7 +6,7 @@ Subject: [PATCH] Setup Gradle Project
 
 diff --git a/build.gradle.kts b/build.gradle.kts
 new file mode 100644
-index 00000000..cfdc1361
+index 0000000000000000000000000000000000000000..cfdc1361618bade1831f11015f6b5d22f7af32c5
 --- /dev/null
 +++ b/build.gradle.kts
 @@ -0,0 +1,59 @@
@@ -71,7 +71,7 @@ index 00000000..cfdc1361
 +}
 diff --git a/pom.xml b/pom.xml
 deleted file mode 100644
-index fe9d6d26..00000000
+index fe9d6d265b686ae1c373e4fdcd202b16673366f1..0000000000000000000000000000000000000000
 --- a/pom.xml
 +++ /dev/null
 @@ -1,161 +0,0 @@
@@ -236,6 +236,3 @@ index fe9d6d26..00000000
 -        </plugins>
 -    </build>
 -</project>
--- 
-2.40.1.windows.1
-

@@ -1,11 +1,11 @@
-From 8ebd08301a02a9ac7ca1eb8d2022782fa1358559 Mon Sep 17 00:00:00 2001
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Zach Brown <zach.brown@destroystokyo.com>
 Date: Thu, 19 Mar 2015 19:41:15 -0500
 Subject: [PATCH] POM Changes
 
 
 diff --git a/pom.xml b/pom.xml
-index a6641f15..32593a7f 100644
+index a6641f15d866c3187f65c4cd3120af97531fd5fb..32593a7fa7ee8c4378c1c4f74570eb01b0886fcb 100644
 --- a/pom.xml
 +++ b/pom.xml
 @@ -1,12 +1,12 @@
@@ -157,7 +157,7 @@ index a6641f15..32593a7f 100644
                  <groupId>org.apache.maven.plugins</groupId>
                  <artifactId>maven-shade-plugin</artifactId>
 diff --git a/src/main/java/net/minecraft/server/PathfinderGoalNearestAttackableTarget.java b/src/main/java/net/minecraft/server/PathfinderGoalNearestAttackableTarget.java
-index c110e0c2..5540dde5 100644
+index c110e0c2b960fe0301f634d14bef7aa4cb42cf1a..5540dde51885bc7579f2f86808ac1663c3c6874d 100644
 --- a/src/main/java/net/minecraft/server/PathfinderGoalNearestAttackableTarget.java
 +++ b/src/main/java/net/minecraft/server/PathfinderGoalNearestAttackableTarget.java
 @@ -11,7 +11,7 @@ public class PathfinderGoalNearestAttackableTarget<T extends EntityLiving> exten
@@ -170,7 +170,7 @@ index c110e0c2..5540dde5 100644
  
      public PathfinderGoalNearestAttackableTarget(EntityCreature entitycreature, Class<T> oclass, boolean flag) {
 diff --git a/src/main/java/org/bukkit/craftbukkit/util/Versioning.java b/src/main/java/org/bukkit/craftbukkit/util/Versioning.java
-index 93046379..3a4b1424 100644
+index 93046379d0cefd5d3236fc59e698809acdc18f80..3a4b14246bb99b989a4685242ccedd0030e481aa 100644
 --- a/src/main/java/org/bukkit/craftbukkit/util/Versioning.java
 +++ b/src/main/java/org/bukkit/craftbukkit/util/Versioning.java
 @@ -11,7 +11,7 @@ public final class Versioning {
@@ -182,6 +182,3 @@ index 93046379..3a4b1424 100644
          Properties properties = new Properties();
  
          if (stream != null) {
--- 
-2.34.1
-

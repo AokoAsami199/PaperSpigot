@@ -1,13 +1,12 @@
-From a4eb18eebf72cb90c5f00637261ce83032ee9822 Mon Sep 17 00:00:00 2001
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Peridot <peridot491@protonmail.com>
 Date: Sun, 4 Jun 2023 20:42:19 +0200
 Subject: [PATCH] Setup Gradle Project
 
 
-
 diff --git a/build.gradle.kts b/build.gradle.kts
 new file mode 100644
-index 000000000..82831a6b8
+index 0000000000000000000000000000000000000000..5c41f14db7adf9ae243e8e24779b5bc6dcdb875d
 --- /dev/null
 +++ b/build.gradle.kts
 @@ -0,0 +1,74 @@
@@ -87,7 +86,7 @@ index 000000000..82831a6b8
 +}
 diff --git a/deprecation-mappings.at b/deprecation-mappings.at
 deleted file mode 100644
-index 5858b4887..000000000
+index 5858b488706682919648deb1aaf32c13d26b95af..0000000000000000000000000000000000000000
 --- a/deprecation-mappings.at
 +++ /dev/null
 @@ -1,62 +0,0 @@
@@ -155,7 +154,7 @@ index 5858b4887..000000000
 -public+synthetic org/bukkit/craftbukkit/v1_8_R3/entity/CraftProjectile/setShooter(Lorg/bukkit/entity/LivingEntity;)V
 diff --git a/deprecation-mappings.csrg b/deprecation-mappings.csrg
 deleted file mode 100644
-index 48bc50495..000000000
+index 48bc504954dfc5763cae9069aa8cc8f70453e5b0..0000000000000000000000000000000000000000
 --- a/deprecation-mappings.csrg
 +++ /dev/null
 @@ -1,27 +0,0 @@
@@ -188,7 +187,7 @@ index 48bc50495..000000000
 -org/bukkit/event/vehicle/VehicleDamageEvent _INVALID_setDamage (I)V setDamage
 diff --git a/pom.xml b/pom.xml
 deleted file mode 100644
-index 644305e68..000000000
+index 644305e68a20f43286c917b15e04a43f05dce254..0000000000000000000000000000000000000000
 --- a/pom.xml
 +++ /dev/null
 @@ -1,279 +0,0 @@
@@ -471,5 +470,3 @@ index 644305e68..000000000
 -        </plugins>
 -    </build>
 -</project>
--- 
-2.40.1.windows.1
