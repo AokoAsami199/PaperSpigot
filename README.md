@@ -1,32 +1,19 @@
-PaperSpigot [![CI Status](http://ci.destroystokyo.com/buildStatus/icon?job=PaperSpigot)](http://ci.destroystokyo.com/job/PaperSpigot/)
+PaperSpigot
 ===========
 
-High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies.
+Refreshed version on [PaperSpigot 1.8.8](https://github.com/PaperMC/Paper/tree/ver/1.8.8), rewritten to use *Gradle KTS* and *more modern patches system* based on [PandaSpigot](https://github.com/hpfxd/PandaSpigot). <br>
+Created to simplify process of creating custom PaperSpigot forks.<br>
+It **won't** ever contain any features, fixes or improvements in the engine itself.
 
-[IRC Support and Project Discussion](http://irc.spi.gt/iris/?channels=PaperSpigot)
-
-
-
-
-How To (Server Admins)
+Building
 ------
-Download a copy of Paperclip.jar from our buildserver here:
-https://ci.destroystokyo.com/job/PaperSpigot/
+Requirements:
+- JDK 8 or newer
+- Git
+- Bash
 
-Run the PaperClip jar directly from your server. Just like old times
+Then use `paper` build script in root directory of repository. You will find everything there you need to develop own fork.
 
-PaperSpigot requires **JRE 8** or above.
-
-
-How To (Compiling From Source)
+License
 ------
-To compile PaperSpigot, you need JDK8, maven, and an internet connection.
-
-Clone this repo, run ./build.sh from *bash*, get files.
-
-Special Thanks To:
--------------
-
-![YourKit-Logo](https://www.yourkit.com/images/yklogo.png)
-
-[YourKit](http://www.yourkit.com/), makers of the outstanding java profiler, support open source projects of all kinds with their full featured [Java](https://www.yourkit.com/java/profiler/index.jsp) and [.NET](https://www.yourkit.com/.net/profiler/index.jsp) application profilers. We thank them for granting PaperSpigot an OSS license so that we can make our software the best it can be.
+This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE) file for details
