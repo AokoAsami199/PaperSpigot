@@ -66,6 +66,6 @@ if [ -f "$basedir/PaperSpigot-API/.git/patch-apply-failed" ]; then
     echo "$(color 1 33)If this is a mistake, delete $(color 1 34)PaperSpigot-API/.git/patch-apply-failed$(color 1 33) and run rebuild again.$(colorend)"
     echo "$(color 1 33)Otherwise, rerun ./paper patch to have a clean PaperSpigot-API apply so the latest PaperSpigot-Server can build.$(colorend)"
 else
-    savePatches "$workdir/Spigot-Server" "PaperSpigot-Server" "Spigot-SERVER-Patches"
+    savePatches "$workdir/Spigot-Server" "PaperSpigot-Server" "Spigot-Server-Patches"
 fi
 ) || exit 1
