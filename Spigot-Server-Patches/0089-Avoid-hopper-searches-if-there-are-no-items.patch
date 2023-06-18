@@ -80,7 +80,7 @@ index c636da31976e774b6b6c0754ba427c9b17ffe3f6..aa555f51fbd0b6fa0ac2360b56086bad
  
 +        // PaperSpigot start
 +        int[] counts;
-+        if (ItemStack.class.isAssignableFrom(oclass)) {
++        if (EntityItem.class.isAssignableFrom(oclass)) {
 +            counts = itemCounts;
 +        } else if (IInventory.class.isAssignableFrom(oclass)) {
 +            counts = inventoryEntityCounts;
