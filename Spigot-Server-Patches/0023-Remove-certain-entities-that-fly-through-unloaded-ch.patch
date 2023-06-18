@@ -34,7 +34,7 @@ index 48ada4d603f58fbddf99bb7e7de6d498498bdad5..f4b50323698afedaf7cb5c5232141d46
              this.world.addParticle(EnumParticle.PORTAL, this.locX, this.locY + this.random.nextDouble() * 2.0D, this.locZ, this.random.nextGaussian(), 0.0D, this.random.nextGaussian(), new int[0]);
          }
 diff --git a/src/main/java/net/minecraft/server/EntityFallingBlock.java b/src/main/java/net/minecraft/server/EntityFallingBlock.java
-index 95c188ba123e5a2caa0cd8411e25da8419da7c3a..86556cdec991d0061078b8d5c0adf00821a72cfc 100644
+index 162c92450aee5e521ddcacbda57b129b8d4337c5..67d88840d9c45a91bdf1fe1aa0980bdb405112d6 100644
 --- a/src/main/java/net/minecraft/server/EntityFallingBlock.java
 +++ b/src/main/java/net/minecraft/server/EntityFallingBlock.java
 @@ -70,6 +70,12 @@ public class EntityFallingBlock extends Entity {
@@ -49,7 +49,7 @@ index 95c188ba123e5a2caa0cd8411e25da8419da7c3a..86556cdec991d0061078b8d5c0adf008
 +
              // PaperSpigot start - Drop falling blocks above the specified height
              if (this.world.paperSpigotConfig.fallingBlockHeightNerf != 0 && this.locY > this.world.paperSpigotConfig.fallingBlockHeightNerf) {
-                 if (this.dropItem) {
+                 if (this.dropItem && this.world.getGameRules().getBoolean("doEntityDrops")) {
 diff --git a/src/main/java/net/minecraft/server/EntityTNTPrimed.java b/src/main/java/net/minecraft/server/EntityTNTPrimed.java
 index d2d94d70936a4c50fbc27e804380236bf4e3b9c5..ebc4b8505605df5d04754950409d04dca6192546 100644
 --- a/src/main/java/net/minecraft/server/EntityTNTPrimed.java
