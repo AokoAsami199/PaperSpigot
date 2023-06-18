@@ -6,10 +6,10 @@ Subject: [PATCH] Setup Gradle Project
 
 diff --git a/build.gradle.kts b/build.gradle.kts
 new file mode 100644
-index 0000000000000000000000000000000000000000..5c41f14db7adf9ae243e8e24779b5bc6dcdb875d
+index 0000000000000000000000000000000000000000..71b4278ae282887e158ef648af1a871ee80c873f
 --- /dev/null
 +++ b/build.gradle.kts
-@@ -0,0 +1,74 @@
+@@ -0,0 +1,73 @@
 +val minecraftVersion = "1_8_R3"
 +
 +repositories {
@@ -20,7 +20,6 @@ index 0000000000000000000000000000000000000000..5c41f14db7adf9ae243e8e24779b5bc6
 +    implementation(project(":paperspigot-api"))
 +
 +    // Minecraft libraries:
-+    implementation("com.mojang:netty:1.7.7")
 +    implementation("com.mojang:authlib:1.5.21")
 +    implementation("org.apache.logging.log4j:log4j-api:2.17.0")
 +    implementation("org.apache.logging.log4j:log4j-core:2.17.0")
