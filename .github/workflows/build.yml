@@ -47,4 +47,4 @@ jobs:
       - name: Setup PaperSpigot environment
         run: ./paper setup
       - name: Build PaperSpigot JAR
-        run: ./paper jar
+        run: ./gradlew build
