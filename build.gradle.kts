@@ -22,6 +22,10 @@ allprojects {
         withType<JavaCompile>().configureEach {
             options.encoding = "UTF-8"
         }
+
+        withType<Javadoc>().configureEach {
+            options.encoding = "UTF-8"
+        }
     }
 
     repositories {
