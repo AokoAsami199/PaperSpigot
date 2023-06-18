@@ -9,9 +9,8 @@ new file mode 100644
 index 0000000000000000000000000000000000000000..71b4278ae282887e158ef648af1a871ee80c873f
 --- /dev/null
 +++ b/build.gradle.kts
-@@ -0,0 +1,70 @@
+@@ -0,0 +1,69 @@
 +val minecraftVersion = "1_8_R3"
-+
 +
 +dependencies {
 +    implementation(project(":paperspigot-api"))
