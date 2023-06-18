@@ -30,6 +30,7 @@ allprojects {
 
     repositories {
         mavenCentral()
+        maven(url = "https://libraries.minecraft.net")
         maven(url = "https://oss.sonatype.org/content/groups/public")
         maven(url = "https://hub.spigotmc.org/nexus/content/groups/public")
     }
