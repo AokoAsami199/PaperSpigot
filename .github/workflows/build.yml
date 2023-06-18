@@ -39,4 +39,4 @@ jobs:
       - name: Setup PaperSpigot environment
         run: ./paper setup
       - name: Build PaperSpigot JAR
-        run: ./gradlew build
+        run: ./gradlew build --no-daemon
