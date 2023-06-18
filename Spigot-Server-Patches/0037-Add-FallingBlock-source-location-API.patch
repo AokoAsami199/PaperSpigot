@@ -37,7 +37,7 @@ index 29f855494244eb34cf6b625c2a45ff1606767465..1d952b82aafb8b1ff8cbd4d4a23b0217
                      this.a(entityfallingblock);
                      world.addEntity(entityfallingblock);
 diff --git a/src/main/java/net/minecraft/server/EntityFallingBlock.java b/src/main/java/net/minecraft/server/EntityFallingBlock.java
-index 86556cdec991d0061078b8d5c0adf00821a72cfc..b34e93ce6aa9b8b85a91b99caeb982b807c272f2 100644
+index 67d88840d9c45a91bdf1fe1aa0980bdb405112d6..795a791e80dffbd3ddf3ed3627b9dbe1cc5615ff 100644
 --- a/src/main/java/net/minecraft/server/EntityFallingBlock.java
 +++ b/src/main/java/net/minecraft/server/EntityFallingBlock.java
 @@ -16,13 +16,26 @@ public class EntityFallingBlock extends Entity {

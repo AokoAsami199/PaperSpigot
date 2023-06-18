@@ -79,7 +79,7 @@ index f4b50323698afedaf7cb5c5232141d46e2e041b8..319c0bc6f621d54ca36e6e2b210a3081
  
      protected void a(MovingObjectPosition movingobjectposition) {
 diff --git a/src/main/java/net/minecraft/server/EntityFallingBlock.java b/src/main/java/net/minecraft/server/EntityFallingBlock.java
-index b34e93ce6aa9b8b85a91b99caeb982b807c272f2..f2d0eee0aff0b914d820ce395e818cdb9c365406 100644
+index 795a791e80dffbd3ddf3ed3627b9dbe1cc5615ff..4f824e844ba8345e04955f5afdfd4a7eb95d352c 100644
 --- a/src/main/java/net/minecraft/server/EntityFallingBlock.java
 +++ b/src/main/java/net/minecraft/server/EntityFallingBlock.java
 @@ -26,6 +26,7 @@ public class EntityFallingBlock extends Entity {

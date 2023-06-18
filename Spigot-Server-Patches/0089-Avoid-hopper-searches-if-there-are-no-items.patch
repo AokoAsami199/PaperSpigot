@@ -14,7 +14,7 @@ And since minecart hoppers are used _very_ rarely near we can avoid alot of sear
 Combined, this adds up a lot.
 
 diff --git a/src/main/java/net/minecraft/server/Chunk.java b/src/main/java/net/minecraft/server/Chunk.java
-index c636da31976e774b6b6c0754ba427c9b17ffe3f6..aa555f51fbd0b6fa0ac2360b56086bad4b612bcb 100644
+index c636da31976e774b6b6c0754ba427c9b17ffe3f6..70c20749649990ad899c43267c5070f12fff95aa 100644
 --- a/src/main/java/net/minecraft/server/Chunk.java
 +++ b/src/main/java/net/minecraft/server/Chunk.java
 @@ -34,6 +34,11 @@ public class Chunk {

@@ -6,7 +6,7 @@ Subject: [PATCH] Setup Gradle Project
 
 diff --git a/build.gradle.kts b/build.gradle.kts
 new file mode 100644
-index 0000000000000000000000000000000000000000..71b4278ae282887e158ef648af1a871ee80c873f
+index 0000000000000000000000000000000000000000..024caf5368ada328f9262152fcca413921d17275
 --- /dev/null
 +++ b/build.gradle.kts
 @@ -0,0 +1,69 @@

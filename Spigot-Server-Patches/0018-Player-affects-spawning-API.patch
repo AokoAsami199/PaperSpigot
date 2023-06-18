@@ -30,7 +30,7 @@ index 2d4d34c882da3f785711731ffbcbcccb9c136b99..b82b98473f516e5963fed51ba892bfa5
              if (entityhuman != null) {
                  double d0 = entityhuman.locX - this.locX;
 diff --git a/src/main/java/net/minecraft/server/MobSpawnerAbstract.java b/src/main/java/net/minecraft/server/MobSpawnerAbstract.java
-index 6004e236fd8e2d2c0beadac31fd8aec2d9f09c3b..ebd1e36da13386fa03b6f217ec257fc5b9dd8ece 100644
+index 3b37423e098701e79ebb815d969154f535538b2d..155343f3f0922d3e9ac8eb1a7c37831f5b366c6e 100644
 --- a/src/main/java/net/minecraft/server/MobSpawnerAbstract.java
 +++ b/src/main/java/net/minecraft/server/MobSpawnerAbstract.java
 @@ -52,7 +52,7 @@ public abstract class MobSpawnerAbstract {

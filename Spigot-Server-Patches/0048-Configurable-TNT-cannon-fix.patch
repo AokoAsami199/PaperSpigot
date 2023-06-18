@@ -172,7 +172,7 @@ index bc07d3de2888096e8d8f575b24d5804ffbe0f941..cc7a1e31b34ad39520352783ff130d9d
                     world.getServer().getPluginManager().callEvent(event);
                  }
 diff --git a/src/main/java/net/minecraft/server/EntityFallingBlock.java b/src/main/java/net/minecraft/server/EntityFallingBlock.java
-index f2d0eee0aff0b914d820ce395e818cdb9c365406..36c384eb9c2280e618eac770ce67ad0abfd7dc88 100644
+index 4f824e844ba8345e04955f5afdfd4a7eb95d352c..174087abf83e0bb3c28f215ad7438a3bd88f025d 100644
 --- a/src/main/java/net/minecraft/server/EntityFallingBlock.java
 +++ b/src/main/java/net/minecraft/server/EntityFallingBlock.java
 @@ -282,4 +282,22 @@ public class EntityFallingBlock extends Entity {

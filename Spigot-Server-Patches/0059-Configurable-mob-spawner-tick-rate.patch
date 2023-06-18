@@ -5,7 +5,7 @@ Subject: [PATCH] Configurable mob spawner tick rate
 
 
 diff --git a/src/main/java/net/minecraft/server/MobSpawnerAbstract.java b/src/main/java/net/minecraft/server/MobSpawnerAbstract.java
-index ebd1e36da13386fa03b6f217ec257fc5b9dd8ece..d4674dcdf3130254779ebf74fc0b9caa20b17f72 100644
+index 155343f3f0922d3e9ac8eb1a7c37831f5b366c6e..e54f7edbd1d834391f6760ea7b82cf6af4ddf994 100644
 --- a/src/main/java/net/minecraft/server/MobSpawnerAbstract.java
 +++ b/src/main/java/net/minecraft/server/MobSpawnerAbstract.java
 @@ -25,6 +25,7 @@ public abstract class MobSpawnerAbstract {
