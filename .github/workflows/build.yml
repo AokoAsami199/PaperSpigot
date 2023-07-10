@@ -42,5 +42,5 @@ jobs:
         run: ./gradlew build --no-daemon
       - uses: actions/upload-artifact@v2
         with:
-            name: my-artifact
+            name: paperspigot
             path: build/libs
