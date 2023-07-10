@@ -40,3 +40,5 @@ jobs:
         run: ./paper setup
       - name: Build PaperSpigot JAR
         run: ./gradlew build --no-daemon
+      - name: Jar Download
+        uses: nvoxland/jar-download-action@v1.0.0
