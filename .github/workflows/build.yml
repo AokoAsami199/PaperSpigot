@@ -42,3 +42,7 @@ jobs:
         run: ./gradlew build --no-daemon
       - name: Jar Download
         uses: nvoxland/jar-download-action@v1.0.0
+      - uses: actions/upload-artifact@v2
+        with:
+            name: my-artifact
+            path: build/libs/server.jar
